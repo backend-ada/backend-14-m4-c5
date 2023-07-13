@@ -9,6 +9,7 @@ Antes de comenzar con los ejercicios que vamos a hacer en esta práctica, les qu
 Las anotaciones de tipo permiten establecer el tipo de dato que queremos que una variable o función tenga. Por ejemplo, si tenemos `const suma = (a: number, b: number): number => a + b;`, le indicamos al intérprete que la función **suma()** tiene dos parámetros, y queremos que éstos sean datos de tipo _number_. Además, la función retornará un dato de tipo _number_.
 
 - [Type Annotations](https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html#type-annotations)
+- <a href="https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html#type-annotations" target="_blank">Type Annotations</a>
 - [¿Siempre es necesario tipar?](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-annotations-on-variables)
 
 <h2 align="center"> Afirmaciones de tipo ó Type assertions </h2>
