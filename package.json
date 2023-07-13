@@ -8,7 +8,7 @@
 		"ej:1": "ts-node --esm ejercicio-1.ts",
 		"ej:2": "ts-node --esm ejercicio-2.ts",
 		"ej:3": "ts-node --esm ejercicio-3.ts",
-		"compile": "tsc"
+		"build": "tsc"
 	},
 	"keywords": [],
 	"author": "",

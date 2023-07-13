@@ -6,6 +6,10 @@ Antes de comenzar con los ejercicios que vamos a hacer en esta práctica, les qu
 
 Las anotaciones de tipo permiten establecer el tipo de dato que queremos que una variable o función tenga. Por ejemplo, si tenemos `const suma = (a: number, b: number): number => a + b;`, le indicamos al intérprete que la función **suma()** tiene dos parámetros, y queremos que éstos sean datos de tipo _number_. Además, la función retornará un dato de tipo _number_.
 
+    [Type Annotations](https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html#type-annotations)
+
+    [¿Siempre es necesario tipar?](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-annotations-on-variables)
+
 <h2 align="center"> Afirmaciones de tipo ó Type assertions </h2>
 
 Cuando **TypeScript** no tiene forma de saber el tipo de dato en cuestión, pero nosostros sí, entonces hacemos uso de esta herramienta. Por ejemplo, imaginemos que queremos obtener la cantidad de planetas del Sistema Solar, y para esto solicitamos data a la API de la NASA:
@@ -23,6 +27,8 @@ Y voilà! ya accedimos al dato que estábamos buscando. Ahora, nosotros, podemos
 `const numberOfPlanets = planetsDataObj.quantity as number;`
 
 **¡OJO!** tengan en cuenta que básicamente le están diciendo a **TS** _confiá... yo se lo que estoy haciendo!_, así que asegúrense de saber bien! ya que pueden introducir errores al código. En los links les dejo un artículo para que lean un poco más acerca de ésto.
+
+    [Type Assertions](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions)
 
 <h2 align="center"> tsconfig.json </h2>
 
