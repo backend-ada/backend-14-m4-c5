@@ -2,13 +2,14 @@
 
 Antes de comenzar con los ejercicios que vamos a hacer en esta práctica, les quiero mostrar la solución que ofrece TypeScript para tipar a los objetos. Pero antes de ver algo nuevo, repasemos un poco lo que vimos hasta el momento.
 
+<p align="center"> <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*7QwRdAxb9Q8wejjQJiFJsQ.png" /> </p>
+
 <h2 align="center"> Anotaciones de tipo ó Type annotations </h2>
 
 Las anotaciones de tipo permiten establecer el tipo de dato que queremos que una variable o función tenga. Por ejemplo, si tenemos `const suma = (a: number, b: number): number => a + b;`, le indicamos al intérprete que la función **suma()** tiene dos parámetros, y queremos que éstos sean datos de tipo _number_. Además, la función retornará un dato de tipo _number_.
 
-    [Type Annotations](https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html#type-annotations)
-
-    [¿Siempre es necesario tipar?](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-annotations-on-variables)
+- [Type Annotations](https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html#type-annotations)
+- [¿Siempre es necesario tipar?](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-annotations-on-variables)
 
 <h2 align="center"> Afirmaciones de tipo ó Type assertions </h2>
 
@@ -28,7 +29,7 @@ Y voilà! ya accedimos al dato que estábamos buscando. Ahora, nosotros, podemos
 
 **¡OJO!** tengan en cuenta que básicamente le están diciendo a **TS** _confiá... yo se lo que estoy haciendo!_, así que asegúrense de saber bien! ya que pueden introducir errores al código. En los links les dejo un artículo para que lean un poco más acerca de ésto.
 
-    [Type Assertions](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions)
+- [Type Assertions](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions)
 
 <h2 align="center"> tsconfig.json </h2>
 
